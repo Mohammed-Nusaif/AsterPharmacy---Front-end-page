@@ -1,0 +1,49 @@
+#brands{
+    padding: 80px;
+}
+.brand-contents{
+
+}
+.brand-top{
+    text-align: center; 
+}
+.brand-top h2{
+    color: rgb(41, 41, 156);
+}
+.bcard{
+    display: flex;
+    width: 200px ;
+    justify-content: center;
+    padding: 0 10px ;
+}
+
+.bcard .b-left{
+    display: flex;
+    width: 50%;
+}
+.b-left img{
+    width: 100px;
+    height: 100px;
+}
+.b-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.bnivia{
+    background: rgb(214, 244, 246);
+}
+.b2{
+
+    background: beige;
+}
+.b3{
+    background-color: rgb(211, 255, 240);
+}
+.b4{
+    background: rgb(248, 215, 220);
+}
+.b5{
+    background: rgb(254, 216, 201);
+}

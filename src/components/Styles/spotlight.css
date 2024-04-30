@@ -1,0 +1,99 @@
+#spotlight {
+  display: flex;
+  width: 100%;
+  margin: 50px 0;
+}
+#spotlight .spot-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#spotlight .spot-content .spot-left {
+  display: flex;
+}
+#spotlight .spot-content .spot-left .offer_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#spotlight .spot-content .spot-left .overlay {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 78, 146, 1),
+    rgba(4, 179, 139, 0.3),
+    rgba(0, 0, 255, 0.1)
+  );
+  color: whitesmoke;
+  padding: 50px;
+}
+#spotlight .spot-content .spot-left .overlay h2{
+    font-weight: 700;
+}
+#spotlight .spot-content .btn{
+    margin-top: 15px;
+    border: 2px solid whitesmoke;
+    color: white;
+
+    border-radius: 35px;
+}
+#spotlight .spot-content .btn:hover{
+
+    background-color: aliceblue;
+    color: black;
+    border-color: rgba(0, 255, 255, 0.059);
+}
+#spotlight .spot-content .spot-middle {
+    height: 400px;
+}
+
+#spotlight .spot-content .spot-middle .spot-up{
+    padding: 22px;
+    background-color: rgba(180, 221, 255, 0.68);
+}
+#spotlight .spot-content .spot-middle .spot-up h2{
+    font-weight: 600;
+    color: rgba(3, 3, 140, 0.966);
+}
+#spotlight .spot-content .spot-middle .spot-down{
+    padding: 28px;
+    background-color:rgb(213, 254, 213);
+}
+#spotlight .spot-content .spot-middle .spot-down h2{
+    font-weight: 600;
+    color: rgb(6, 101, 6);
+    font-weight: 700;
+}
+#spotlight .spot-content .spot-middle .btn2{
+    border: 2px solid black;
+    color: black;
+}
+
+
+#spotlight .spot-content .spot-right {
+
+}
+#spotlight .spot-content .spot-right img{
+    width: 350px;
+    height: 462px;
+}
+#spotlight .spot-content .spot-right .overlay2 {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    width: 350px;
+    height: 50%;
+    position: absolute;
+    top: 159px;
+    background: linear-gradient(to bottom, rgba(14, 78, 146, 0.8), rgba(4, 179, 139, 0.3), rgba(0, 0, 255, 0));
+    color: whitesmoke;
+    padding: 50px;
+  }
+  #spotlight .spot-content .spot-right .overlay2 h6{
+    font-weight: 700;
+    font-size: large;
+  }

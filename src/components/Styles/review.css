@@ -1,0 +1,52 @@
+#review{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.rev-contents{
+
+}
+.rev-top{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.rev-left h2{
+    color: rgb(44, 44, 130);
+}
+.rev-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+.rev-btn{
+    border: 2px solid rgb(227, 223, 223);
+    background: #fff;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+.rev-cards{
+    width: 400px;
+    border: 2px solid rgb(185, 185, 185);
+    padding: 20px;
+}
+.stars ul{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: flex-start;
+    padding: 0;
+}
+.stars ul img{
+    width: 30px;
+}
+.c-middle{
+    
+}
+.c-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.c-bottom span{
+    color: rgb(33, 172, 33);
+    font-weight: 700;
+}

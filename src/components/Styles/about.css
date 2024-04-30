@@ -1,0 +1,67 @@
+#About{
+    display: flex;
+    text-align: left;
+    background-image: url(../../assets/spotlight/3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) to set the opacity */
+   
+}
+.abt-contents{
+    width: 60%;
+}
+.about-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to set the opacity */
+    display: flex;
+    align-items: center;
+ 
+  
+}
+.about-overlay h1{
+    font-weight: 600;
+    color: white;
+}
+.about-overlay p{
+    color: white;
+    margin: 15px 0;
+}
+.abt-h5{
+    width: 15%;
+    padding:  5px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #0E4E92,#04B38B);
+
+  color: white;
+  margin-bottom: 29px;
+}
+.about-btn{
+    margin-top: 15px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 35px;
+}
+.about-btn:hover{
+    background-color: white;
+    color: black;
+}
+.count{
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #0E4E92,#04B38B);
+
+}
+.count h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+.count p{
+    color: white;
+}

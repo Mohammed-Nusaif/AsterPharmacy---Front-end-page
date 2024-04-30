@@ -1,0 +1,54 @@
+#why{
+    background:rgb(253, 253, 245) ;
+    padding: 50px;
+}
+.why-contents{
+    display: flex;
+
+}
+.why-left{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+}
+.why-left img{
+    width: 600px;
+}
+.why-right{
+    width: 50%;
+    padding: 20px;
+}
+.why-right h3{
+    color: rgb(37, 37, 172);
+
+}
+.why-right p{
+    font-size: 13px;
+}
+.why-top{
+
+}
+.why-btm{
+    display: flex;
+    width: 300px;
+    padding: 10px;
+     background: rgb(249, 249, 240);
+     align-items: center;
+     margin-bottom: 20px;
+}
+.whycard{
+    display: flex;
+    align-items: center;
+
+}
+
+.whycard2 {
+    display: flex;
+    width: 65%;
+    justify-content: flex-end;
+  
+}
+.whycard img{
+    width: 50px;
+}

@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Deals{
+    width: 100%;
+    background: rgb(245, 245, 245);
+    padding: 50px;
+}
+.deal-contents{
+   
+}
+.deal-contents .deal-top{
+    text-align: center;
+}
+.deal-contents .deal-top h2{
+    color: rgb(41, 41, 156);
+}
+
+.deal-bottom{
+
+}
+.deal-bottom .deal-card{
+    width: 500px; 
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}   
+.deal-bottom .deal-card .d1-img{
+    width: 150px;
+    height: 100px;
+}
+.deal-bottom .deal-card .dcard{
+    display: flex;
+    width: 100%;
+}
+.deal-bottom .deal-card .dcard .dcard-left{
+    width: 50%;
+    margin-left: 20px;
+}
+.deal-bottom .deal-card .dcard .dcard-left p{
+    font-size: 13px;
+    font-weight: 500;
+    color: green;
+  
+}
+.deal-bottom .deal-card .dcard .dcard-left span{
+    color: green;
+}
+.deal-bottom .deal-card .dcard .dcard-right{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.deal-bottom .deal-card .dcard .dcard-right img{
+    width: 147px;
+    height: 116px;
+}
+.dcard-bottom{
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(
+    to top,
+    rgba(14, 78, 146, 1),
+    rgba(4, 179, 139, 0.8)
+  );
+}
